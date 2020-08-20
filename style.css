@@ -21,6 +21,13 @@
     padding: 0 30px;
     box-shadow: -2px 3px 8px 0px rgb(74 74 74 / 21%);
 }
+.header .logo h2{
+    transition: all .3s;
+}
+.header .logo h2:hover{
+    color:#24a0ed ;
+    
+}
 .header .nav{
     display: flex;
     align-items: center;
@@ -30,11 +37,15 @@
     margin-left: 20px;
 }
 .nav .nav-links a{
+    transition: all .3s;
     text-decoration: none;
     color: #000000;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+}
+.nav .nav-links a:hover{
+    color:#24a0ed ;
 }
 .home-content{
     width: 100%;
